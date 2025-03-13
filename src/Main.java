@@ -32,5 +32,35 @@ public class Main {
             System.out.println("Максималдуу балл 100!");
         }
 
+        // Дни недели
+        System.out.println("Жети кундун бирин сан турундо жазыныз?");
+        int dayOfWeek = scanner.nextInt();
+        switch (dayOfWeek) {
+            case 1:
+                System.out.println("Дуйшомбу");
+                break;
+            case 2:
+                System.out.println("Шейшемби");
+                break;
+            case 3:
+                System.out.println("Шаршемби");
+                break;
+            case 4:
+                System.out.println("Бейшемби");
+                break;
+            case 5:
+                System.out.println("Жума");
+                break;
+            case 6:
+                System.out.println("Ишемби");
+                break;
+            case 7:
+                System.out.println("Жекшемби");
+                break;
+            default:
+                System.out.println("Апта 7 кун менен эсептелет!");
+                break;
+        }
+
     }
 }
