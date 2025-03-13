@@ -62,5 +62,24 @@ public class Main {
                 break;
         }
 
+        // Выбор меню
+        System.out.println("Выберите дальнейшее действие (1, 2, 3)");
+        int menuTab = scanner.nextInt();
+        switch (menuTab) {
+            case 1:
+                System.out.println("Перейти к калькулятору");
+                break;
+            case 2:
+                System.out.println("Посмотреть список курсов");
+                break;
+            case 3:
+                System.out.println("Выход");
+                break;
+            default:
+                System.out.println("Неизвестная команда");
+                break;
+        }
+        scanner.close();
+
     }
 }
